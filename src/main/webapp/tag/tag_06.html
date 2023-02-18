@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>하이퍼링크 태그</h1>
+<h3>a</h3>
+
+<hr>
+
+<!-- href 속성(Attribute)이 있어야 하이퍼링크로 동작한다 -->
+<a>링크</a>
+
+<br><br>
+
+<!-- href 속성 부여하기 -->
+<a href="">href속성 적용!</a>
+
+<hr>
+
+<div id="top">
+	<h1>여기가 TOP!!!</h1>
+</div>
+
+<a href="#bottom">BOTTOM 으로</a>
+
+<hr>
+
+<a href="https://www.google.co.kr/">구글로 이동</a><br><br>
+
+<a href="https://www.google.co.kr/" target="_blank">구글로 이동 (새 탭)</a><br><br>
+
+<a href="https://www.google.co.kr/" target="_self">구글로 이동 (현재 탭)</a><br><br>
+
+<hr>
+
+<!-- 절대 경로 URL -->
+<!-- 	Absolute Path URL -->
+<!-- 	도메인주소를 포함한 URL을 뜻한다 -->
+
+<!-- 	다른 사이트로 하이퍼링크를 적용할 때 사용한다 -->
+
+<a href="https://www.naver.com/" target="_blank">네이버</a><br>
+
+<a href="https://iei.or.kr/intro/contact.kh"
+ target="_blank">오시는 길</a><br>
+
+<hr>
+
+<!-- 상대 경로 URL -->
+<!-- 	Relative Path URL -->
+
+<!-- 	도메인 주소를 생략하고 자원(파일)의 경로만 적는 URL -->
+<!-- 	같은 사이트 내에서 다른 페이지로 이동할 때 사용한다 -->
+
+<!-- 	사이트 기준점이 자기 자신이 된다 -->
+
+<!-- 	메뉴를 구성할 때 사용할 수 있다 -->
+
+<ul>
+	<li><a href="/tag/tag_01.html">하나</a></li>
+	
+	
+	<li><a href="./tag_02.html">둘</a></li>
+
+	<li><a href="tag_03.html">셋</a></li>
+
+
+	<li><a href="../tag_04.html">넷 (잘못된 경로)</a></li>
+
+	<li><a href="../test.html">다섯</a></li>
+
+</ul>
+
+<!-- 경로 지정 문자 -->
+
+<!-- 	/	 -->
+<!-- 	디렉토리(폴더)를 나타내는 기호 -->
+
+<!-- 	 상대 경로를 표현할 때 제일 앞 글자로 사용되면 -->
+<!-- 	루트 디렉토리(Root Directory)를 표현한다 -->
+
+<!-- 	도메인의 최상위 디렉토리를 나타낸다 -->
+
+<!-- --------------------------------------------------- -->
+
+<!-- 	.	 -->
+<!-- 	현재 디렉토리를 표현하는 기호 -->
+
+<!-- 	현재 페이지(파일)이 보관된 폴더 -->
+
+<!-- 	 지정 문자없이 곧바로 파일이름으로 시작해도 -->
+<!-- 	현재 디렉토리로 적용된다 -->
+
+<!-- --------------------------------------------------- -->
+
+<!-- 	..	 -->
+<!-- 	부모 디렉토리를 나타내는 기호 -->
+
+<!-- 	현재 페이지(파일)의 상위 폴더를 나타낸다 -->
+
+<hr>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis iaculis justo vel eleifend. Proin pharetra, mi at rutrum lobortis, ante velit tempor sem, a sollicitudin est quam imperdiet metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam lobortis quam id aliquam dignissim. Vivamus tempus mauris ut risus dictum, vel vulputate mi egestas. Duis euismod suscipit dui eu iaculis. Donec pulvinar commodo enim sit amet varius.</p>
+
+<p>Nam at nulla urna. Nunc interdum eros et neque rutrum mattis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum pretium nisl quis porttitor sollicitudin. Quisque sit amet massa id ipsum pretium bibendum. Sed non eros finibus, sagittis urna sit amet, maximus diam. Fusce tortor est, vulputate nec elit non, faucibus tincidunt libero.</p>
+
+<p>Nam sed laoreet elit. Morbi egestas tristique dui, in vehicula diam mollis eget. Praesent ex nunc, iaculis a facilisis non, porta et est. In hac habitasse platea dictumst. Nulla facilisi. Morbi non purus porta, pellentesque risus vitae, luctus eros. Praesent egestas arcu nisi. Donec elementum auctor purus, eu porta nulla tempor ac. Donec pulvinar mauris at est faucibus aliquam. Nunc enim libero, consequat ullamcorper hendrerit eu, interdum nec dolor. Praesent ornare urna ac arcu ultricies, vitae mollis risus porta. Nulla quis viverra neque. Phasellus egestas maximus nibh sit amet interdum. Sed imperdiet, elit sed fermentum imperdiet, velit risus posuere dolor, et aliquet ante augue et leo. Sed condimentum nisi id pulvinar sagittis.</p>
+
+<p>Phasellus fringilla malesuada suscipit. Phasellus eget risus molestie, sagittis massa et, suscipit enim. Donec tristique enim et massa faucibus, id sollicitudin augue bibendum. Maecenas vel bibendum magna, sit amet congue nisl. Aliquam finibus, enim sed varius tempus, risus felis maximus arcu, quis aliquam velit ipsum egestas purus. Suspendisse hendrerit velit nec augue aliquam ultrices. In id ante at augue imperdiet hendrerit sed id felis. Nam sagittis, orci in pharetra eleifend, purus ligula consequat dolor, at fringilla diam nulla eu risus. Curabitur et libero imperdiet, tempor odio vitae, placerat nisl. Aliquam porttitor libero at consequat feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris sagittis euismod tellus eu efficitur. Duis consectetur felis enim, in volutpat tellus vehicula nec. In laoreet ex lorem, et faucibus elit tincidunt sit amet. Cras tempus fringilla quam ac fringilla.</p>
+
+<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas blandit commodo sodales. Nam porta varius iaculis. Suspendisse et molestie nulla, et bibendum nunc. Nam maximus felis quis ipsum faucibus pulvinar. Aliquam venenatis, massa in euismod consequat, ipsum ex pellentesque mi, maximus varius arcu risus at enim. In quis rutrum dolor. Sed vitae commodo ipsum. Ut quis libero ut nulla ullamcorper consectetur. Curabitur at magna et augue finibus accumsan a in lacus. Integer sagittis ullamcorper bibendum. Nulla egestas malesuada arcu vel dignissim. Cras quis erat erat. Praesent quam ex, mattis porttitor aliquet ac, tristique sed urna. Fusce turpis orci, iaculis non tempor id, commodo et felis. Etiam purus velit, scelerisque a quam maximus, varius tincidunt est.</p>
+
+<hr>
+
+<div id="bottom">
+	<h1>여기가 BOTTOM!</h1>
+</div>
+
+<a href="#top">TOP으로 가기</a>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
